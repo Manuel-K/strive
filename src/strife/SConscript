@@ -1,0 +1,7 @@
+# -*- python -*-
+
+env = Environment()
+env.ParseConfig("pkg-config --cflags --libs sdl")
+env.Append(CPPPATH = ['#src', '#src/opengl', '.'])
+
+env.Library('strife', Glob('*.c'))

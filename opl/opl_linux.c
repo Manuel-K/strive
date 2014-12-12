@@ -15,8 +15,6 @@
 //     OPL Linux interface.
 //
 
-#include "config.h"
-
 #ifdef HAVE_IOPERM
 
 #include <stdio.h>

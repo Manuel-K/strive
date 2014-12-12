@@ -1,0 +1,16 @@
+# -*- python -*-
+
+env = Environment()
+env.ParseConfig("pkg-config --cflags --libs sdl SDL_mixer SDL_net")
+env.ParseConfig("pkg-config --libs gl")
+env.ParseConfig("pkg-config --cflags --libs libpng")
+env.ParseConfig("pkg-config --libs libavcodec libavformat libavutil libswscale")
+env.Append(LIBS=['opl', 'pcsound', 'textscreen'],
+           LIBPATH=['#opl', '#pcsound', '#textscreen'])
+env.Append(LIBS=['opengl', 'strife'], LIBPATH=['opengl', 'strife'])
+env.Append(LIBS=['m'])
+env.Append(CPPPATH=['.', 'opengl', 'strife', '#opl', '#pcsound', '#textscreen'])
+
+SConscript(['opengl/SConscript', 'strife/SConscript'])
+
+env.Program('#strife-ve', Glob('*.c'))
