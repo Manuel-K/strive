@@ -7,7 +7,7 @@ env.ParseConfig("pkg-config --cflags --libs libpng")
 env.ParseConfig("pkg-config --libs libavcodec libavformat libavutil libswscale")
 env.Append(LIBS=['opl', 'pcsound', 'textscreen'],
            LIBPATH=['#opl', '#pcsound', '#textscreen'])
-env.Append(LIBS=['opengl', 'strife'], LIBPATH=['opengl', 'strife'])
+env.Append(LIBS=['strife', 'opengl'], LIBPATH=['opengl', 'strife'])
 env.Append(LIBS=['m'])
 env.Append(CPPPATH=['.', 'opengl', 'strife', '#opl', '#pcsound', '#textscreen'])
 
