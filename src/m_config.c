@@ -2431,7 +2431,7 @@ static char *GetDefaultConfigDir(void)
         // put all configuration in a config directory off the
         // homedir
         result = M_StringJoin(homedir, DIR_SEPARATOR_S,
-                              PACKAGE_TARNAME, DIR_SEPARATOR_S, NULL);
+                              "." PACKAGE_TARNAME, DIR_SEPARATOR_S, NULL);
 
         return result;
     }
