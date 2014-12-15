@@ -1,9 +1,9 @@
 #ifndef _CONFIG_H
 #define _CONFIG_H
 
-#define PACKAGE_NAME "strife-ve"
-#define PACKAGE_STRING "Strife: Veteran Edition"
-#define PACKAGE_TARNAME "strife-ve"
-#define PROGRAM_PREFIX "strife-ve-"
+#define PACKAGE_NAME "strive"
+#define PACKAGE_STRING "Strive"
+#define PACKAGE_TARNAME "strive"
+#define PROGRAM_PREFIX "strive-"
 
 #endif

@@ -13,4 +13,4 @@ env.Append(CPPPATH=['.', 'opengl', 'strife', '#opl', '#pcsound', '#textscreen'])
 
 SConscript(['opengl/SConscript', 'strife/SConscript'])
 
-env.Program('#strife-ve', Glob('*.c'))
+env.Program('#strive', Glob('*.c'))
