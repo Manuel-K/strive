@@ -1,4 +1,5 @@
 *.[ao]
 *~
 .sconsign.dblite
+/README.html
 /strive

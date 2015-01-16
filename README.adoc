@@ -1,0 +1,17 @@
+Strive -- A Strife: Veteran Edition port
+========================================
+
+This is a fork of _Strife: Veteran Edition_, the only change at the
+present is a major cleanup of the source tree and a build system
+rewritten with http://scons.org/[SCons].  To compile it, make sure you
+have SDL 1.2, SDL-mixer 1.2, SDL-net 1.2, FFmpeg, libpng, and OpenGL
+headers installed.
+
+It's only really been tested, and likely only works on, Linux.  No
+installation target is available, but feel free to copy the resulting
++strive+ binary as you please.  Hypothetically SCons is supposed to be
+able to work with MSVC on Windows too, but I personally do not care to
+try such things for myself.  Also the SCons files are my very first
+ones ever and likely need to be scrapped for some better ones.
+
+Have fun!
