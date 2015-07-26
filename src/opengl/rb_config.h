@@ -19,6 +19,7 @@
 #include "doomstat.h"
 
 extern boolean  rbLinearFiltering;
+extern boolean  rbAnisotropicFiltering;
 extern boolean  rbTexturedAutomap;
 extern boolean  rbFixSpriteClipping;
 extern boolean  rbOutlineSprites;
@@ -45,6 +46,7 @@ void RB_BindVariables(void);
 #define ADD_RB_VARIABLES()                              \
     CONFIG_VARIABLE_INT(gl_enable_renderer),            \
     CONFIG_VARIABLE_INT(gl_linear_filtering),           \
+    CONFIG_VARIABLE_INT(gl_anisotropic_filtering),      \
     CONFIG_VARIABLE_INT(gl_textured_automap),           \
     CONFIG_VARIABLE_INT(gl_fix_sprite_clipping),        \
     CONFIG_VARIABLE_INT(gl_outline_sprites),            \

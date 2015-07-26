@@ -535,6 +535,7 @@ static femenuitem_t optionsGraphicsBasicItems[] =
     { FE_MITEM_TOGGLE,  "Fullscreen",       "fullscreen",         FE_FONT_SMALL, FE_TOGGLE_DEFAULT },
     { FE_MITEM_TOGGLE,  "High Quality",     "gl_enable_renderer", FE_FONT_SMALL, FE_TOGGLE_DEFAULT },
     { FE_MITEM_TOGGLE,  "Linear Filtering", "gl_linear_filtering" },
+    { FE_MITEM_TOGGLE,  "Anisotropic Filtering", "gl_anisotropic_filtering" },
     { FE_MITEM_TOGGLE,  "Interpolation",    "interpolate_frames"  },
     { FE_MITEM_TOGGLE,  "Cap Framerate",    "d_fpslimit"          },
     { FE_MITEM_TOGGLE,  "Textured Automap", "gl_textured_automap" },  

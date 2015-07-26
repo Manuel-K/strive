@@ -174,6 +174,11 @@ static fehelpstr_t helpStrs[] =
         "pixel art detail for a smooth appearance."
     },
     {
+        "gl_anisotropic_filtering",
+        "Toggle anisotropic filtering in the high quality renderer. You must "
+        "restart for this setting to take effect."
+    },
+    {
         "gl_max_decals",
         "Set the maximum number of decals. Range is from 16 to 128."
     },

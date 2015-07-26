@@ -21,6 +21,7 @@
 
 // general
 boolean rbLinearFiltering = false;
+boolean rbAnisotropicFiltering = true;
 boolean rbTexturedAutomap = true;
 boolean rbFixSpriteClipping = true;
 boolean rbOutlineSprites = true;
@@ -56,6 +57,7 @@ void RB_BindVariables(void)
 {
     M_BindVariableWithDefault("gl_enable_renderer", &use3drenderer, &default_use3drenderer);
     M_BindVariable("gl_linear_filtering", &rbLinearFiltering);
+    M_BindVariable("gl_anisotropic_filtering", &rbAnisotropicFiltering);
     M_BindVariable("gl_textured_automap", &rbTexturedAutomap);
     M_BindVariable("gl_fix_sprite_clipping", &rbFixSpriteClipping);
     M_BindVariable("gl_outline_sprites", &rbOutlineSprites);

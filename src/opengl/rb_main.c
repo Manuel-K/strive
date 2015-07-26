@@ -159,7 +159,14 @@ void RB_ResetViewPort(void)
 
 int RB_GetMaxAnisotropic(void)
 {
-    return maxAnisotropic;
+    if (rbAnisotropicFiltering)
+    {
+        return maxAnisotropic;
+    }
+    else
+    {
+        return 0;
+    }
 }
 
 //
