@@ -122,6 +122,7 @@ static femenuitem_t optionsGameplayItems[] =
     { FE_MITEM_TOGGLE, "Maximum Gore",     "max_gore",          FE_FONT_SMALL, FE_TOGGLE_NOTNET },
     { FE_MITEM_TOGGLE, "Show Dialogue",    "show_talk",         FE_FONT_SMALL },
     { FE_MITEM_TOGGLE, "Weapon Recoil",    "weapon_recoil",     FE_FONT_SMALL },
+    { FE_MITEM_TOGGLE, "View Bobbing",     "view_bob",          FE_FONT_SMALL },
     { FE_MITEM_END,    "",                 "" }
 };
 

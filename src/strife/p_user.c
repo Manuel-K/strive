@@ -111,6 +111,9 @@ void P_CalcHeight (player_t* player)
     if (player->bob>MAXBOB)
         player->bob = MAXBOB;
 
+    if (!d_bob)
+        player->bob = 0;
+
     // haleyjd 20110205 [STRIFE]: No CF_NOMOMENTUM check, and Rogue also removed
     // the dead code inside.
     if (!onground)

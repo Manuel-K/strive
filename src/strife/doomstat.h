@@ -305,6 +305,9 @@ extern  boolean         d_maxgore;
 // [SVE] recoil
 extern  boolean         d_recoil;
 
+// [SVE] bob
+extern  boolean         d_bob;
+
 // [SVE] damage indicator
 extern  boolean         d_dmgindictor;
 

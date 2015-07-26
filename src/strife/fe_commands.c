@@ -424,6 +424,10 @@ static fehelpstr_t helpStrs[] =
         "If using the high quality renderer, your view will kick back in response "
         "to heavy arms fire."
     },
+    {
+        "view_bob",
+        "Weapon bobbing during movement. Can cause motion sickness."
+    },
 };
 
 //

@@ -508,6 +508,7 @@ void D_BindVariables(void)
     M_BindVariable("max_gore",               &d_maxgore);
     M_BindVariable("classicmode",            &classicmode);
     M_BindVariable("weapon_recoil",          &d_recoil);
+    M_BindVariable("view_bob",               &d_bob);
     M_BindVariable("damage_indicator",       &d_dmgindictor);
     M_BindVariable("autoaim",                &autoaim);
     M_BindVariable("autorun",                &autorun);

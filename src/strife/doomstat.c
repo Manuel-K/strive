@@ -52,6 +52,9 @@ boolean d_maxgore = true;
 // [SVE] svillarreal - player recoil bobbing
 boolean d_recoil = true;
 
+// [SVE] view bobbing
+boolean d_bob = true;
+
 // [SVE] svillarreal - damage indicators
 boolean d_dmgindictor = true;
 

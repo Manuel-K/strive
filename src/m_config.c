@@ -792,6 +792,14 @@ static default_t extra_defaults_list[] =
     //!
     // @game strife [SVE]
     //
+    // If non-zero, player's view will bob while moving
+    //
+
+    CONFIG_VARIABLE_INT(view_bob),
+
+    //!
+    // @game strife [SVE]
+    //
     // if non-zero, indicator arrows will display showing the source of the damage
     //
 
